@@ -21,8 +21,8 @@ public interface Constant {
             "JellyBean - 4.2.2", "JellyBean - 4.2", "Froyo - 2.2.3", "Eclair - 2.1",
             "Donut - 1.6"};
 
-    String[] JAVA_VERSION_LIST = {"Java8", "Java-8-b132", "Java-8u40-b25", "Java7", "Java-7-b147", "Java-7u40-b43",
-            "Java6", "Java-6-b27", "Java-6-b14"};
+    String[] JAVA_VERSION_LIST = {"Java8", "Java-jdk8-b120"/*, "jdk8-b116", "Java7", "Java-7-b147", "Java-7u40-b43",
+            "Java6", "Java-6-b27", "Java-6-b14"*/};
 
     // 包名前缀
     String[] JAVA_PACKAGE_PREFIX = {"com.oracle", "com.sun", "java", "javax", "sun", "sunw",
@@ -36,7 +36,8 @@ public interface Constant {
     String DOWNLOAD_BASE_PATH = "http://androidxref.com/%s/raw/frameworks/base/core/java/%s";
 
     // Java 下载
-    String JAVA_DOWNLOAD_BASE_PATH = "http://grepcode.com/file_/repository.grepcode.com/java/root/jdk/openjdk/%s/%s/?v=source&disposition=attachment";
+//    String JAVA_DOWNLOAD_BASE_PATH = "http://grepcode.com/file_/repository.grepcode.com/java/root/jdk/openjdk/%s/%s/?v=source&disposition=attachment";
+    String JAVA_DOWNLOAD_BASE_PATH = "https://raw.githubusercontent.com/openjdk/jdk/%s/jdk/src/share/classes/%s";
 
     // Android 搜索
     String ANDROID_SEARCH = "http://androidxref.com/%s/search?q=&defs=&refs=&path=%s&hist=&project=art&project=bionic&project=bootable&project=build&project=cts&project=dalvik&project=developers&project=development&project=device&project=docs&project=external&project=frameworks&project=hardware&project=kernel&project=libcore&project=libnativehelper&project=packages&project=pdk&project=platform_testing&project=prebuilts&project=sdk&project=system&project=test&project=toolchain&project=tools";
