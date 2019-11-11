@@ -13,7 +13,7 @@ public interface Constant {
     String CACHE_PATH = USER_HOME + "/.AndroidSourceViewerCache/";
 
     // 版本分布
-    String[] ANDROID_VERSION_LIST = {"Pie", "Pie - 9.0.0_r3","Oreo", "Oreo - 8.0.0_r4", "Nougat", "Nougat - 7.1.1_r6", "Nougat - 7.0.0_r1",
+    String[] ANDROID_VERSION_LIST = {"Q", "10.0.0_r2", "Pie", "Pie - 9.0.0_r45","Oreo", "Oreo - 8.0.0_r4", "Nougat", "Nougat - 7.1.1_r6", "Nougat - 7.0.0_r1",
             "Marshmallow", "Marshmallow - 6.0.1_r10", "Marshmallow - 6.0.0_r5", "Marshmallow - 6.0.0_r1",
             "Lollipop", "Lollipop - 5.1.1_r6", "Lollipop - 5.1.0_r1", "Lollipop - 5.0.0_r2", "KitKat", "KitKat - 4.4.4_r1",
             "KitKat - 4.4.3_r1.1", "KitKat - 4.4.2_r2", "KitKat - 4.4.2_r1", "KitKat - 4.4",
@@ -33,7 +33,8 @@ public interface Constant {
             "org.w3c", "org.apache", "dalvik", "junit.framework", "junit.runner"};
 
     // Android 下载链接
-    String DOWNLOAD_BASE_PATH = "http://androidxref.com/%s/raw/frameworks/base/core/java/%s";
+//    String DOWNLOAD_BASE_PATH = "http://androidxref.com/%s/raw/frameworks/base/core/java/%s";
+    String DOWNLOAD_BASE_PATH = "http://aospxref.com/android-%s/xref/frameworks/base/core/java/%s";
 
     // Java 下载
 //    String JAVA_DOWNLOAD_BASE_PATH = "http://grepcode.com/file_/repository.grepcode.com/java/root/jdk/openjdk/%s/%s/?v=source&disposition=attachment";
